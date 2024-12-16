@@ -1,12 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import searchIcon from "@public/images/icons/search.svg";
-import thumbsUpIcon from "@public/images/icons/thumbs-up.svg";
-import thumbsDownIcon from "@public/images/icons/thumbs-down.svg";
-//import phoneIcon from "@public/images/icons/phone.svg";
-import messageIcon from "@public/images/icons/message.svg";
-import emailIcon from "@public/images/icons/email.svg";
-import locationIcon from "@public/images/icons/location.svg";
 import Link from 'next/link';
 import Button from '../components/Button';
 
@@ -16,7 +9,7 @@ const page = () => {
         <h2 className='uppercase text-xl font-bold mt-8 w-full text-center'>Get Help</h2>
         <div className="flex px-4 py-3 rounded-md w-full md:w-[30%] border-2 border-text-secondary-gray mt-4 justify-between">
             <input className="focus-visible:outline-none w-full" type="text" placeholder="What can we help you with?" name="" id="" />
-            <Image src={searchIcon} alt="search" />
+           
         </div>
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 px-4 md:px-16 py-8 bg-white text-gray-800 w-full">
             <div className='col-span-12 md:col-span-9 border-r-[1.3px] pr-4 border-text-secondary-gray'>
@@ -78,8 +71,7 @@ const page = () => {
                 <div className="mb-6">
                     <p className="mb-2">Was this answer helpful?</p>
                     <div className="flex space-x-2">
-                        <Image src={thumbsUpIcon} alt="Thumbs Up" className="w-6 h-6 cursor-pointer"/>
-                        <Image src={thumbsDownIcon} alt="Thumbs Down" className="w-6 h-6 cursor-pointer"/>
+                       
                     </div>
                 </div>
                 <h4 className="text-lg font-bold mt-8 mb-4 text-text-secondary-gray">RELATED</h4>
