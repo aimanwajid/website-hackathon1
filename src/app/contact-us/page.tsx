@@ -3,7 +3,7 @@ import React from 'react';
 import searchIcon from "@public/images/icons/search.svg";
 import thumbsUpIcon from "@public/images/icons/thumbs-up.svg";
 import thumbsDownIcon from "@public/images/icons/thumbs-down.svg";
-import phoneIcon from "@public/images/icons/phone.svg";
+//import phoneIcon from "@public/images/icons/phone.svg";
 import messageIcon from "@public/images/icons/message.svg";
 import emailIcon from "@public/images/icons/email.svg";
 import locationIcon from "@public/images/icons/location.svg";
@@ -101,7 +101,7 @@ const page = () => {
                 <h2 className='uppercase font-bold text-xl text-center'>Contact Us</h2>
                 {/* Phone Section */}
                 <div className="flex flex-col items-center space-y-2 text-center">
-                   <Image src={phoneIcon} alt='Phone' width={40}/>
+                  
                     <p className="font-semibold">000 800 919 0566</p>
                     <p>Products & Orders: 24 hours a day, 7 days a week</p>
                     <p>Company Info & Enquiries: 07:30 - 16:30, Monday - Friday</p>
@@ -109,21 +109,21 @@ const page = () => {
 
                 {/* Chat Section */}
                 <div className="flex flex-col items-center space-y-2 text-center">
-                    <Image src={phoneIcon} alt='Phone' width={40}/>
+                   
                     <p>24 hours a day</p>
                     <p>7 days a week</p>
                 </div>
 
                 {/* Email Section */}
                 <div className="flex flex-col items-center space-y-2 text-center">
-                    <Image src={phoneIcon} alt='Phone' width={40}/>
+                   
                     <p>We’ll reply within</p>
                     <p>five business days</p>
                 </div>
 
                 {/* Store Locator Section */}
                 <div className="flex flex-col items-center space-y-2 text-center">
-                    <Image src={phoneIcon} alt='Phone' width={40}/>
+                   
                     <p className="font-semibold">STORE LOCATOR</p>
                     <p>Find Nike retail stores near you</p>
                 </div>
