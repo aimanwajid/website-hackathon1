@@ -226,11 +226,7 @@ export default function Products() {
           {/* Map through the products array */}
           {products.map((product) => (
             <div key={product.id} className="border p-4">
-              <img
-                src={product.image}
-                alt={product.name}
-                className="w-full mb-4"
-              />
+            
               <h3 className="text-lg font-medium">{product.name}</h3>
               <p className="text-gray-500">{product.colors}</p>
               <p className="text-gray-900">MRP: {product.price}</p>
